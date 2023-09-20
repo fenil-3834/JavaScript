@@ -38,7 +38,7 @@ console.log(fruits); //[ 'Pineaple', 'Orange', 'Apple', 'Kiwi' ]
 console.log((fruits[0] = "Peach")); //Peach
 console.log(fruits); //[ 'Peach', 'Orange', 'Apple', 'Kiwi' ]
 
-//Array length ---> (array ma new element ne array ma last add karva mate thase)
+//Array length ---> (array ma new element ne array ma last ma add karva mate thase)
 console.log((fruits[fruits.length] = "Watermelon")); //Watermelon
 console.log(fruits); //[ 'Peach', 'Orange', 'Apple', 'Kiwi', 'Watermelon' ]
 
