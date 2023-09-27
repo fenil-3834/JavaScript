@@ -63,7 +63,7 @@ while (i <= 10) {
 let myarray1 = ["Fenil", "Meet", "Arth"];
 let arr = 0;
 while (arr < myarray1.length) {
-  // console.log(`value of arr is ${myarray1[arr]}`);
+  console.log(`value of arr is ${myarray1[arr]}`);
   arr++;
 }
 
@@ -73,3 +73,18 @@ do {
   // console.log(`Score is ${score}`);
   score++;
 } while (score <= 10);
+
+function pattern(a) {
+  let string = "";
+  for (let i = 1; i < a; i++) {
+    for (let j = 1; j < i; j++) {
+      string += " ";
+    }
+    for (let k = 0; k < 2 * (a - i) - 1; k++) {
+      string += "*";
+    }
+    string += "\n";
+  }
+  console.log(string);
+}
+pattern(5);
