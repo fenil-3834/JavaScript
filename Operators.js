@@ -143,7 +143,7 @@
 // }
 // example(500);
 
-let age = 19;
-let name;
-name = "value is" + " " + (age >= 20 ? "True" : "False");
-console.log(name);
+// let age = 19;
+// let name;
+// name = "value is" + " " + (age >= 20 ? "True" : "False");
+// console.log(name);
