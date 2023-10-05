@@ -41,7 +41,7 @@ const user = {
 // console.log(addTwo(3, 2));
 
 //implicit return (return keyword no use thase nai)
-// const addTwo = (num1, num2) => num1 + num2;
+// const addTwo = (num1, num2) => (num1 + num2);
 // console.log(addTwo(3, 2));
 
 // const addTwo = () => ({

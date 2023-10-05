@@ -147,3 +147,11 @@
 // let name;
 // name = "value is" + " " + (age >= 20 ? "True" : "False");
 // console.log(name);
+
+// Example class name
+var className = "my-class";
+
+// Convert class name to a ternary operator
+var result = className.includes("inactive") ? "active-class" : "inactive-class";
+
+console.log(result);
